@@ -41,4 +41,8 @@ public class Card {
     public void setFaceValue(int faceValue) {
         this.faceValue = faceValue;
     }
+
+    public String toString(){
+        return faceName + " of " + suit;
+    }
 }
